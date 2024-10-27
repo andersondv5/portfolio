@@ -21,17 +21,20 @@ typeWriter("Acesse os links abaixo e entre em contato", "text4");
 
 // darkMode
 
-const logo = document.getElementById("toggleTheme");
+const darkbtn = document.getElementById("toggleTheme");
 
-logo.addEventListener("click", () => {
+darkbtn.addEventListener("click", () => {
   document.body.classList.toggle("dark-mode");
 });
 
 
-// Aguarda 3 segundos antes de ocultar o carregador
-setTimeout(function() {
-    document.getElementById('loader').style.display = 'none'; // Oculta o carregador
-    document.getElementById('content').style.display = 'block'; // Mostra o conteúdo
-}, 2000); // Altere o tempo conforme necessário
+document.getElementById('toggleTheme').addEventListener('click', function() {
+    const img = this;
+    if (img.src.includes('moon.svg')) {
+      img.src = './img/imagens/sun.svg'; 
+    } else {
+      img.src = './img/imagens/moon.svg'; 
+    }
+  });
 
 
