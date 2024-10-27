@@ -1,0 +1,42 @@
+.botao{
+  font-family: "Poppins", sans-serif;
+  background: #1983FF;
+  font-weight: bold;
+  font-size: 14px;
+  border-radius: 4px;
+  padding: 4px 20px;
+  color: #f5f6fa;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 1360px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding: 1.5rem;
+}
+
+.menu {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.menu a {
+  font-family: "Inter", sans-serif;
+  color: #707070;
+  font-weight: 400;
+  padding: 8px;
+  font-size: 16px;
+  transition: 0.3s;
+}
+
+.menu a:hover {
+  background: #1983FF;
+  color: #f5f6fa;
+  border-radius: 4px;
+}

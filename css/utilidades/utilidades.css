@@ -1,0 +1,40 @@
+.logo{
+  transition: .3s;
+}
+
+.logo:hover{
+  opacity: .9;
+}
+
+/* fadein */
+.fade-in1{
+  opacity: 0;
+  transform: translateY(-20px);
+  animation: slideIn 1s ease forwards;
+}
+
+.fade-in2{
+  opacity: 0;
+  transform: translateY(20px);
+  animation: slideIn 1s ease forwards;
+  animation-delay: .5s
+}
+
+.fade-in3{
+  opacity: 0;
+  transform: translateY(20px);
+  animation: slideIn 1s ease forwards;
+  animation-delay: 1s
+}
+
+
+@keyframes slideIn{
+  0%{
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  100%{
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

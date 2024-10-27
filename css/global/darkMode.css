@@ -1,0 +1,30 @@
+body {
+  transition: background-color 0.3s, color 0.3s;
+}
+
+body.dark-mode {
+  background-color: #080d15;
+}
+
+body.dark-mode .home h1 {
+  color: #F5F7FA;
+}
+
+body.dark-mode .home p {
+  color: #697A96;
+}
+
+body.dark-mode .menu a{
+  color: #697A96;
+}
+
+body.dark-mode .menu a:hover{
+  background: #1983FF;
+  color: #f5f6fa;
+}
+
+body.dark-mode .botao{
+  background: #1983FF;
+  color: #080D15;;
+}
+
