@@ -1,0 +1,35 @@
+.container{
+  max-width: 1360px;
+  box-sizing: border-box;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.main{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 120px;
+}
+
+.g{
+  object-fit: cover;
+  width: 100%;
+}
+
+.main h1{
+  font-family: "Poppins", sans-serif;
+  font-size: 50px;
+  font-weight: 800;
+  color: #141A24;
+  line-height: 74px;
+}
+
+.main p{
+  font-family: "Inter", sans-serif;
+  font-size: 18px;
+  color: #868E9D;
+  padding: 40px 0;
+}

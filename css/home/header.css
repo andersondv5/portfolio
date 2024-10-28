@@ -1,11 +1,8 @@
-.botao {
-  font-family: "Poppins", sans-serif;
-  background: #1983ff;
-  font-weight: bold;
-  font-size: 14px;
-  border-radius: 4px;
-  padding: 4px 20px;
-  color: #f5f6fa;
+.logo{
+  font-family: "Inter", sans-serif;
+  color: #000;
+  font-weight: 900;
+  padding: 10px;
 }
 
 .header {
@@ -23,7 +20,7 @@
 .menu {
   display: flex;
   align-items: center;
-  gap: 10px;
+  gap: 40px;
 }
 
 .menu img {
@@ -34,6 +31,7 @@
 
 .menu a {
   font-family: "Inter", sans-serif;
+  box-sizing: border-box;
   color: #707070;
   font-weight: 400;
   padding: 8px;
@@ -42,7 +40,13 @@
 }
 
 .menu a:hover {
-  background: #1983ff;
-  color: #f5f6fa;
+  color: #000;
+  font-weight: 500;
   border-radius: 4px;
+}
+
+@media(max-width: 600px){
+  .menu{
+    gap: 10px;
+  }
 }

@@ -3,7 +3,11 @@ body {
 }
 
 body.dark-mode {
-  background-color: #080d15;
+  background-color: #0D1117;
+}
+
+body.dark-mode .logo{
+  color: #f7f7f7;
 }
 
 body.dark-mode .home h1 {
@@ -19,12 +23,6 @@ body.dark-mode .menu a{
 }
 
 body.dark-mode .menu a:hover{
-  background: #1983FF;
   color: #f5f6fa;
-}
-
-body.dark-mode .botao{
-  background: #1983FF;
-  color: #080D15;;
 }
 
